@@ -15,6 +15,18 @@ Deshacer Cambios
 uu para deshacer cambios
 --------------FIN-------------------------------------------
 
+Ejecutar comandos dentro de un programa
+------------------------------------------------------------
+`pwd` o $(pwd)
+--------------FIN-------------------------------------------
+
+
+Debug de un script
+------------------------------------------------------------
+bash -v : muestra el script y sus valores evaluados
+bash -x te muestra el script, valores evaluados y especifica 
+cuales son entradas y salidas 
+--------------FIN-------------------------------------------
 
 ARGUMENTOS:
 ------------------------------------------------------------
@@ -23,5 +35,52 @@ $1 al ${10} : el numero de argumentos, si son mas de un digito se utiliza
 las  llaves
 $# : Contador de argumentos
 $* : Refiere a todos los argumentos
+--------------FIN-------------------------------------------
+
+Captura de informacion de usuarios:
+------------------------------------------------------------
+read -p "Ingresar una opcion:" option
+ó
+echo -n "Ingresar una opcion:"
+read
+option=$REPLY
+
+--------------FIN-------------------------------------------
+
+
+Opciones al momento de capturar informacion:
+------------------------------------------------------------
+read -s -> Oculta la información entrante por propio usuario.
+
+read -n[1,2,3,4…] -> Mantiene la linea de ejecución, 
+la misma linea en la que estamos hasta que llegue al numero de carácteres definido.
+
+read -p -> Indica que hay que dejar la informacion ingresada en la variable siguiente.
+
+--------------FIN-------------------------------------------
+
+
+Expresiones Regulares
+------------------------------------------------------------
+^.- Caracter que representa el inicio de la expresión regular.
+$.- Caracter que representa el final de la expresión regular.
+*.- Caracter que representa cero o más ocurrencias de la expresión
++.- Caracter que representa una o más ocurrencias de la expresión.
+{n}.-Representa n veces de una expresión.
+[ ] .- Representa un conjunto de caracteres, por ejemplo: [a-z] 
+representa las letras del abecedario de la a a la z.
+
+--------------FIN-------------------------------------------
+
+Sentencias If/Else
+------------------------------------------------------------
+-eq: igual a
+-ne: no es igual a
+-gt: mayor a 
+-ge: mayor o igual a 
+-lt menor que 
+-le menor o igual a
+
+--------------FIN-------------------------------------------
 
 Salto de linea: \n
