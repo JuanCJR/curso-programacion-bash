@@ -1,0 +1,27 @@
+----------------------RECURSOS-----------------------------
+
+Copiar dentro de vim
+------------------------------------------------------------
+yy sobre la liea para realizar copia
+'numero' + yy para indicar numero de lineas que se copiaran
+--------------FIN-------------------------------------------
+Pegar dentro de vim
+------------------------------------------------------------
+pp sobre la liea para pegar
+--------------FIN-------------------------------------------
+
+Deshacer Cambios
+------------------------------------------------------------
+uu para deshacer cambios
+--------------FIN-------------------------------------------
+
+
+ARGUMENTOS:
+------------------------------------------------------------
+$0 : Nombre del Script
+$1 al ${10} : el numero de argumentos, si son mas de un digito se utiliza 
+las  llaves
+$# : Contador de argumentos
+$* : Refiere a todos los argumentos
+
+Salto de linea: \n
