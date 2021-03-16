@@ -1,0 +1,6 @@
+Condicionales
+-----------------------------------------------------------
+if [ -d $pathArchivo ] para validar que exista el directorio
+
+------------------------FIN--------------------------------
+
