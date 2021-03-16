@@ -45,7 +45,7 @@ do
             echo -e "\nSalir del programa"
             exit 0
             ;;
-    esac
+    esac 
 done
 
            
