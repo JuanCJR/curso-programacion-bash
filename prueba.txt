@@ -1,0 +1,16 @@
+Valores escritos con echo
+Valores con cat
+Hola como estas aaaaa
+a
+b
+c
+d
+e
+j
+k
+l
+m
+o
+p
+q
+
