@@ -84,3 +84,10 @@ Sentencias If/Else
 --------------FIN-------------------------------------------
 
 Salto de linea: \n
+$$ : PID de la shell actual
+$? : el codigo de salida del pipe mas (es decir, de la ultima vez que se 
+encadenaron varios comandos mediante el caracter pipe: |)
+$! : el pid del ultimo comndo ejecutado en segundo plano
+
+
+https://devhints.io/bash
